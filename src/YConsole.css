@@ -1,0 +1,299 @@
+
+
+.YConsole_left_pan{
+	position:fixed;
+/*	left:0px;
+	top:0px;
+	width:300px;
+	height:100vh;*/
+/*	opacity:0.8;*/
+	transition:margin 0.5s ease;
+	z-index:1000000000;
+}
+.YConsole_left_pan_switch{
+	position:fixed;
+	width:18px;
+	height:18px;
+	text-align:left;
+	color:#FFF;
+	font-family:Arial;
+	font-size:18px;
+	
+	text-shadow:-2px 0px 2px #FF0000,-1px 0px 2px #C04080,0px 0px 2px #8080FF,
+				1px 0px 2px #40C0FF,2px 0px 2px #00FFFF;/*
+	background-color:#106;
+	border:solid;
+	border-width:1px 1px 1px 0px;
+	border-radius:0px 20px 20px 0px;
+	*/
+	cursor:pointer;
+	z-index:1000000001;
+}
+.YConsole_left_pan_resize{
+	position:fixed;
+	text-align:center;
+	color:#FFF;
+	background-color:#000;
+}
+/* --------------------*/
+
+.YConsole_left_pan__dock_left{
+	left:0px;
+	top:0px;
+}
+.YConsole_left_pan__dock_right{
+	right:0px;
+	top:0px;
+}
+.YConsole_left_pan__dock_top{
+	left:0px;
+	top:0px;
+}
+.YConsole_left_pan__dock_bottom{
+	right:0px;
+	bottom:0px;
+}
+
+.YConsole_left_pan_switch__dock_left{
+	left:0px;
+	top:0px;
+}
+.YConsole_left_pan_switch__dock_right{
+	right:0px;
+	top:0px;
+}
+.YConsole_left_pan_switch__dock_top{
+	left:0px;
+	top:5px;
+}
+.YConsole_left_pan_switch__dock_bottom{
+	left:0px;
+	bottom:5px;
+}
+.YConsole_left_pan_resize__dock_left{
+	cursor:ew-resize;
+}
+.YConsole_left_pan_resize__dock_right{
+	cursor:ew-resize;
+}
+.YConsole_left_pan_resize__dock_top{
+	cursor:ns-resize;
+}
+.YConsole_left_pan_resize__dock_bottom{
+	cursor:ns-resize;
+}
+/* --------------------*/
+.YConsole_konsol_selector{
+	display:inline-block;
+}
+.YConsole_konsol_selector_value{
+	display:inline-block;
+	cursor:pointer;
+	background-color:#444;
+	margin:0px 3px;
+	padding:1px 3px;
+	border-radius:10px;
+}
+.YConsole_konsol_selector_value:hover{
+	background-color:#666;
+}
+.YConsole_konsol_selector_childs{
+	display:block;
+	position:absolute;
+	border:solid 1px #000;
+	background-color:#eee;
+	box-shadow:3px 2px 5px #888;
+}
+.YConsole_konsol_selector_option{
+	display:block;
+	color:#000;
+	background-color:#fff;
+	padding:0px 2px;
+	margin:2px 2px;
+	cursor:pointer;
+}
+.YConsole_konsol_selector_option:hover{
+	color:#fff;
+	background-color:#000;
+}
+ 
+/* --------------------*/
+.YConsole_konsol_help{
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:#FFF;
+	width:100%;
+	overflow:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+.YConsole_konsol_help div{
+	margin:3px;
+	padding:3px;
+}
+.YConsole_konsol_help div div{
+	margin:0px 8px;
+	padding:6px 8px;
+	border:solid 1px #CCC;
+}
+.YConsole_konsol_help div div div{
+	padding:3px 8px;
+	border:none;
+	background-color:#eee;
+}
+.YConsole_konsol_help_exit{
+	position:absolute;
+	right:20px;
+	top:10px;
+	padding:0px 6px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#FFF;
+	background-color:rgba(0,0,255,0.5);
+	border-radius:4px;
+	cursor:pointer;
+}
+/* --------------------*/
+
+.YConsole_konsol{
+	border:solid 1px #000;
+	font-family:Arial;
+}
+.YConsole_konsol_tools{
+	color:#fff;
+	background-color:#666;
+	padding-bottom:1px;
+}
+.YConsole_konsol_tools img {
+    vertical-align: middle;
+}
+.YConsole_konsol_tools a{
+	display:inline-block;
+	text-align:center;
+	width:20px;
+	background-color:#777;
+	cursor:pointer;
+}
+.YConsole_konsol_help .YConsole_konsol_tools a{
+	padding:0px 3px;
+}
+.YConsole_konsol_tools a:hover{
+	background-color:transparent;
+}
+.YConsole_konsol_tools span span{
+	cursor:pointer;
+}
+
+.YConsole_konsol_list{
+	background-color:#AAA;
+	/*overflow:auto;resize:both;*/
+	overflow:auto;
+	
+}
+.YConsole_konsol_split{
+	background-color:#444;
+	cursor:ns-resize;
+}
+
+.YConsole_konsol_counter{
+	display:inline-block;
+	padding:0px 5px;
+	color:#FFF;
+	background-color:#063;
+	border-radius:10px;
+	margin-left:5px;
+}
+.YConsole_konsol_line{
+	font-family:monospace;
+	font-size:14px;
+	border-bottom:solid 1px #000;
+}
+.YConsole_konsol_showstack{
+}
+.YConsole_konsol_msg{
+	background-color:#fff;
+}
+.YConsole_konsol_msg_u_undefined{
+}
+.YConsole_konsol_msg_u_number{
+	color:#F00;
+}
+.YConsole_konsol_msg_u_string{
+	color:#B97800;
+}
+.YConsole_konsol_msg_u_object{
+	color:#00C;
+	cursor:pointer;
+}
+.YConsole_konsol_msg_u_array{
+	color:#060;
+	cursor:pointer;
+}
+
+.YConsole_konsol_error{
+	background-color:#fee;
+}
+.YConsole_konsol_stack{
+	background-color:#ddd;
+}
+/* --------------------*/
+.YConsole_konsol_objedit{
+	background-color:#aaa;
+	font-family:monospace;
+	font-size:12px;
+	height:100px;
+	overflow-y:auto;
+}
+.YConsole_konsol_oe_line{
+	background-color:#fff;
+	border-bottom:solid 1px #999;
+}
+.YConsole_konsol_oe_label,.YConsole_konsol_oe_type,.YConsole_konsol_oe_val{
+	display:inline-block;
+}
+.YConsole_konsol_oe_toggler{
+	cursor:pointer;
+}
+.YConsole_konsol_oe_hide{
+	cursor:pointer;
+	position:absolute;
+	margin-top:3px;
+	right:20px;
+	color:#FFF;
+	background-color:#900;
+	padding:0px 3px;
+	border-radius:20px;
+	border:solid 1px #000000;
+}
+.YConsole_konsol_oe_hide:hover{
+	background-color:#F00;
+}
+
+
+
+.YConsole_konsol_oe_label{
+	padding:0px 3px;
+}
+.YConsole_konsol_oe_type{
+	padding:0px 3px;
+	background-color:#ddd;
+}
+.YConsole_konsol_oe_val{
+}
+.YConsole_konsol_oe_childs{
+	margin-left:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
