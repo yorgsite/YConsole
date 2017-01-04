@@ -12,15 +12,17 @@
 }
 .YConsole_left_pan_switch{
 	position:fixed;
-	width:18px;
-	height:18px;
+/*	width:18px;
+	height:18px;*/
 	text-align:left;
 	color:#FFF;
 	font-family:Arial;
 	font-size:18px;
 	
 	text-shadow:-2px 0px 2px #FF0000,-1px 0px 2px #C04080,0px 0px 2px #8080FF,
-				1px 0px 2px #40C0FF,2px 0px 2px #00FFFF;/*
+				1px 0px 2px #40C0FF,2px 0px 2px #00FFFF;
+	opacity:0.5;
+				/*
 	background-color:#106;
 	border:solid;
 	border-width:1px 1px 1px 0px;
@@ -50,7 +52,7 @@
 	top:0px;
 }
 .YConsole_left_pan__dock_bottom{
-	right:0px;
+	left:0px;
 	bottom:0px;
 }
 
@@ -63,11 +65,11 @@
 	top:0px;
 }
 .YConsole_left_pan_switch__dock_top{
-	left:0px;
+	right:20px;
 	top:5px;
 }
 .YConsole_left_pan_switch__dock_bottom{
-	left:0px;
+	right:20px;
 	bottom:5px;
 }
 .YConsole_left_pan_resize__dock_left{
@@ -171,7 +173,7 @@
 .YConsole_konsol_tools a{
 	display:inline-block;
 	text-align:center;
-	width:20px;
+	/*width:20px;*/
 	background-color:#777;
 	cursor:pointer;
 }
@@ -189,7 +191,7 @@
 	background-color:#AAA;
 	/*overflow:auto;resize:both;*/
 	overflow:auto;
-	
+	user-select: initial;
 }
 .YConsole_konsol_split{
 	background-color:#444;
@@ -285,12 +287,15 @@
 	margin-left:12px;
 }
 
-
-
-
-
-
-
+.YConsole_konsol_msg_switch{
+	display:inline-block;
+	padding:0px 8px;
+	border-radius:20px;
+	background-color:#888;
+	color:#fff;
+	border:solid 1px #fff;
+	cursor:pointer;
+}
 
 
 

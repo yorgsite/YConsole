@@ -2,14 +2,13 @@
 
 /* ------------------------------- YConsole.css [ ------------------------------- */
 
-(function(){var _dom_ = document.createElement('style');_dom_.appendChild(document.createTextNode( "\n.YConsole_left_pan{position:fixed;\ntransition:margin 0.5s ease;z-index:1000000000;}\n.YConsole_left_pan_switch{position:fixed;width:18px;height:18px;text-align:left;color:#FFF;font-family:Arial;font-size:18px;\ntext-shadow:-2px 0px 2px #FF0000,-1px 0px 2px #C04080,0px 0px 2px #8080FF,\n1px 0px 2px #40C0FF,2px 0px 2px #00FFFF;cursor:pointer;z-index:1000000001;}\n.YConsole_left_pan_resize{position:fixed;text-align:center;color:#FFF;background-color:#000;}\n.YConsole_left_pan__dock_left{left:0px;top:0px;}\n.YConsole_left_pan__dock_right{right:0px;top:0px;}\n.YConsole_left_pan__dock_top{left:0px;top:0px;}\n.YConsole_left_pan__dock_bottom{right:0px;bottom:0px;}\n.YConsole_left_pan_switch__dock_left{left:0px;top:0px;}\n.YConsole_left_pan_switch__dock_right{right:0px;top:0px;}\n.YConsole_left_pan_switch__dock_top{left:0px;top:5px;}\n.YConsole_left_pan_switch__dock_bottom{left:0px;bottom:5px;}\n.YConsole_left_pan_resize__dock_left{cursor:ew-resize;}\n.YConsole_left_pan_resize__dock_right{cursor:ew-resize;}\n.YConsole_left_pan_resize__dock_top{cursor:ns-resize;}\n.YConsole_left_pan_resize__dock_bottom{cursor:ns-resize;}\n.YConsole_konsol_selector{display:inline-block;}\n.YConsole_konsol_selector_value{display:inline-block;cursor:pointer;background-color:#444;margin:0px 3px;padding:1px 3px;border-radius:10px;}\n.YConsole_konsol_selector_value:hover{background-color:#666;}\n.YConsole_konsol_selector_childs{display:block;position:absolute;border:solid 1px #000;background-color:#eee;box-shadow:3px 2px 5px #888;}\n.YConsole_konsol_selector_option{display:block;color:#000;background-color:#fff;padding:0px 2px;margin:2px 2px;cursor:pointer;}\n.YConsole_konsol_selector_option:hover{color:#fff;background-color:#000;}\n.YConsole_konsol_help{position:absolute;left:0px;top:0px;background-color:#FFF;width:100%;overflow:auto;font-family:Arial, Helvetica, sans-serif;font-size:16px;}\n.YConsole_konsol_help div{margin:3px;padding:3px;}\n.YConsole_konsol_help div div{margin:0px 8px;padding:6px 8px;border:solid 1px #CCC;}\n.YConsole_konsol_help div div div{padding:3px 8px;border:none;background-color:#eee;}\n.YConsole_konsol_help_exit{position:absolute;right:20px;top:10px;padding:0px 6px;font-family:\"Arial Black\", Gadget, sans-serif;font-size:24px;color:#FFF;background-color:rgba(0,0,255,0.5);border-radius:4px;cursor:pointer;}\n.YConsole_konsol{border:solid 1px #000;font-family:Arial;}\n.YConsole_konsol_tools{color:#fff;background-color:#666;padding-bottom:1px;}\n.YConsole_konsol_tools img {vertical-align: middle;}\n.YConsole_konsol_tools a{display:inline-block;text-align:center;width:20px;background-color:#777;cursor:pointer;}\n.YConsole_konsol_help .YConsole_konsol_tools a{padding:0px 3px;}\n.YConsole_konsol_tools a:hover{background-color:transparent;}\n.YConsole_konsol_tools span span{cursor:pointer;}\n.YConsole_konsol_list{background-color:#AAA;\noverflow:auto;\n}\n.YConsole_konsol_split{background-color:#444;cursor:ns-resize;}\n.YConsole_konsol_counter{display:inline-block;padding:0px 5px;color:#FFF;background-color:#063;border-radius:10px;margin-left:5px;}\n.YConsole_konsol_line{font-family:monospace;font-size:14px;border-bottom:solid 1px #000;}\n.YConsole_konsol_showstack{}\n.YConsole_konsol_msg{background-color:#fff;}\n.YConsole_konsol_msg_u_undefined{}\n.YConsole_konsol_msg_u_number{color:#F00;}\n.YConsole_konsol_msg_u_string{color:#B97800;}\n.YConsole_konsol_msg_u_object{color:#00C;cursor:pointer;}\n.YConsole_konsol_msg_u_array{color:#060;cursor:pointer;}\n.YConsole_konsol_error{background-color:#fee;}\n.YConsole_konsol_stack{background-color:#ddd;}\n.YConsole_konsol_objedit{background-color:#aaa;font-family:monospace;font-size:12px;height:100px;overflow-y:auto;}\n.YConsole_konsol_oe_line{background-color:#fff;border-bottom:solid 1px #999;}\n.YConsole_konsol_oe_label,.YConsole_konsol_oe_type,.YConsole_konsol_oe_val{display:inline-block;}\n.YConsole_konsol_oe_toggler{cursor:pointer;}\n.YConsole_konsol_oe_hide{cursor:pointer;position:absolute;margin-top:3px;right:20px;color:#FFF;background-color:#900;padding:0px 3px;border-radius:20px;border:solid 1px #000000;}\n.YConsole_konsol_oe_hide:hover{background-color:#F00;}\n.YConsole_konsol_oe_label{padding:0px 3px;}\n.YConsole_konsol_oe_type{padding:0px 3px;background-color:#ddd;}\n.YConsole_konsol_oe_val{}\n.YConsole_konsol_oe_childs{margin-left:12px;}\n\n"));document.documentElement.appendChild(_dom_);})();
+(function(){var _dom_ = document.createElement('style');_dom_.appendChild(document.createTextNode( "\n.YConsole_left_pan{position:fixed;\ntransition:margin 0.5s ease;z-index:1000000000;}\n.YConsole_left_pan_switch{position:fixed;\ntext-align:left;color:#FFF;font-family:Arial;font-size:18px;\ntext-shadow:-2px 0px 2px #FF0000,-1px 0px 2px #C04080,0px 0px 2px #8080FF,\n1px 0px 2px #40C0FF,2px 0px 2px #00FFFF;opacity:0.5;\ncursor:pointer;z-index:1000000001;}\n.YConsole_left_pan_resize{position:fixed;text-align:center;color:#FFF;background-color:#000;}\n.YConsole_left_pan__dock_left{left:0px;top:0px;}\n.YConsole_left_pan__dock_right{right:0px;top:0px;}\n.YConsole_left_pan__dock_top{left:0px;top:0px;}\n.YConsole_left_pan__dock_bottom{left:0px;bottom:0px;}\n.YConsole_left_pan_switch__dock_left{left:0px;top:0px;}\n.YConsole_left_pan_switch__dock_right{right:0px;top:0px;}\n.YConsole_left_pan_switch__dock_top{right:20px;top:5px;}\n.YConsole_left_pan_switch__dock_bottom{right:20px;bottom:5px;}\n.YConsole_left_pan_resize__dock_left{cursor:ew-resize;}\n.YConsole_left_pan_resize__dock_right{cursor:ew-resize;}\n.YConsole_left_pan_resize__dock_top{cursor:ns-resize;}\n.YConsole_left_pan_resize__dock_bottom{cursor:ns-resize;}\n.YConsole_konsol_selector{display:inline-block;}\n.YConsole_konsol_selector_value{display:inline-block;cursor:pointer;background-color:#444;margin:0px 3px;padding:1px 3px;border-radius:10px;}\n.YConsole_konsol_selector_value:hover{background-color:#666;}\n.YConsole_konsol_selector_childs{display:block;position:absolute;border:solid 1px #000;background-color:#eee;box-shadow:3px 2px 5px #888;}\n.YConsole_konsol_selector_option{display:block;color:#000;background-color:#fff;padding:0px 2px;margin:2px 2px;cursor:pointer;}\n.YConsole_konsol_selector_option:hover{color:#fff;background-color:#000;}\n.YConsole_konsol_help{position:absolute;left:0px;top:0px;background-color:#FFF;width:100%;overflow:auto;font-family:Arial, Helvetica, sans-serif;font-size:16px;}\n.YConsole_konsol_help div{margin:3px;padding:3px;}\n.YConsole_konsol_help div div{margin:0px 8px;padding:6px 8px;border:solid 1px #CCC;}\n.YConsole_konsol_help div div div{padding:3px 8px;border:none;background-color:#eee;}\n.YConsole_konsol_help_exit{position:absolute;right:20px;top:10px;padding:0px 6px;font-family:\"Arial Black\", Gadget, sans-serif;font-size:24px;color:#FFF;background-color:rgba(0,0,255,0.5);border-radius:4px;cursor:pointer;}\n.YConsole_konsol{border:solid 1px #000;font-family:Arial;}\n.YConsole_konsol_tools{color:#fff;background-color:#666;padding-bottom:1px;}\n.YConsole_konsol_tools img {vertical-align: middle;}\n.YConsole_konsol_tools a{display:inline-block;text-align:center;\nbackground-color:#777;cursor:pointer;}\n.YConsole_konsol_help .YConsole_konsol_tools a{padding:0px 3px;}\n.YConsole_konsol_tools a:hover{background-color:transparent;}\n.YConsole_konsol_tools span span{cursor:pointer;}\n.YConsole_konsol_list{background-color:#AAA;\noverflow:auto;user-select: initial;}\n.YConsole_konsol_split{background-color:#444;cursor:ns-resize;}\n.YConsole_konsol_counter{display:inline-block;padding:0px 5px;color:#FFF;background-color:#063;border-radius:10px;margin-left:5px;}\n.YConsole_konsol_line{font-family:monospace;font-size:14px;border-bottom:solid 1px #000;}\n.YConsole_konsol_showstack{}\n.YConsole_konsol_msg{background-color:#fff;}\n.YConsole_konsol_msg_u_undefined{}\n.YConsole_konsol_msg_u_number{color:#F00;}\n.YConsole_konsol_msg_u_string{color:#B97800;}\n.YConsole_konsol_msg_u_object{color:#00C;cursor:pointer;}\n.YConsole_konsol_msg_u_array{color:#060;cursor:pointer;}\n.YConsole_konsol_error{background-color:#fee;}\n.YConsole_konsol_stack{background-color:#ddd;}\n.YConsole_konsol_objedit{background-color:#aaa;font-family:monospace;font-size:12px;height:100px;overflow-y:auto;}\n.YConsole_konsol_oe_line{background-color:#fff;border-bottom:solid 1px #999;}\n.YConsole_konsol_oe_label,.YConsole_konsol_oe_type,.YConsole_konsol_oe_val{display:inline-block;}\n.YConsole_konsol_oe_toggler{cursor:pointer;}\n.YConsole_konsol_oe_hide{cursor:pointer;position:absolute;margin-top:3px;right:20px;color:#FFF;background-color:#900;padding:0px 3px;border-radius:20px;border:solid 1px #000000;}\n.YConsole_konsol_oe_hide:hover{background-color:#F00;}\n.YConsole_konsol_oe_label{padding:0px 3px;}\n.YConsole_konsol_oe_type{padding:0px 3px;background-color:#ddd;}\n.YConsole_konsol_oe_val{}\n.YConsole_konsol_oe_childs{margin-left:12px;}\n.YConsole_konsol_msg_switch{display:inline-block;padding:0px 8px;border-radius:20px;background-color:#888;color:#fff;border:solid 1px #fff;cursor:pointer;}\n"));document.documentElement.appendChild(_dom_);})();
 
 /* ------------------------------- ] YConsole.css ------------------------------- */
 
 
 
 /* ------------------------------- YConsole.js [ ------------------------------- */
-
 
 /**
 	<b>YConsole.js</b> has been made to make js debugging easier under mobile with the
@@ -71,7 +70,10 @@ var YConsole=new function YConsole(){
 	this.MAX_LOG_STR_LENGTH		= 200;
 	this.MAX_LOG_ARRAY_LENGTH	= 40;
 	
-	this.SPLITTER_WIDTH	= 3;
+//	this.SPLITTER_WIDTH	= 20;
+	
+	var SPLITTER_WIDTH = 5;
+	var TOOLS_SIZE = 20;
 	
 	var className="YConsole_konsol";
 	
@@ -225,7 +227,14 @@ var YConsole=new function YConsole(){
 			return makedom("span",{innerHTML:lunit+"",className:klass});
 		};
 	// ------------------------ ] tools -----------------	
+
+	// ------------------------ rules [ -----------------	
+	var tools_button_rule = makecssrule("."+className+"_tools_button,."+className+"_tools_button img");
+	var resize_vertical_rule = makecssrule("."+className+"_resize_vertical");
+	var resize_horizontal_rule = makecssrule("."+className+"_resize_horizontal");
 	
+	// ------------------------ ] rules -----------------	
+
 	
 	/**@ignore*/
 	var AutoResizer=function(targetNode,on_resize){
@@ -312,7 +321,7 @@ var YConsole=new function YConsole(){
 			var oen = this;
 			var visible=false,parsed=false;
 			var utype= obj instanceof Array?"array":typeof(obj);
-			var oe_dom_toggler	= makedom("span",{className:className+"_oe_toggler",innerHTML:"►"},[]);
+			var oe_dom_toggler	= makedom("span",{className:className+"_msg_switch",innerHTML:"►"},[]);
 			
 			var oe_dom_label	= makedom("span",{className:className+"_oe_label",innerHTML:name+""},[]);
 			var oe_dom_type		= makedom("span",{className:className+"_oe_type",innerHTML:""+utype+""},[]);
@@ -485,7 +494,12 @@ var YConsole=new function YConsole(){
 			scope.dom	= makedom("div",{className:className},[dom_tools,scope.objedit.dom,dom_split,dom_list]);
 			
 			stk_rule = makecssrule("."+classid+"_stk");
+			
+			tools_button_rule.style.width=TOOLS_SIZE+"px";
 			//w_rule2 = makecssrule("."+classid+"_w2");
+			
+			resize_vertical_rule.style.height=SPLITTER_WIDTH+"px";
+			resize_horizontal_rule.style.width=SPLITTER_WIDTH+"px";
 			
 			scope.dom.style.left	= 0+"px";
 			scope.dom.style.top		= 0+"px";
@@ -501,24 +515,28 @@ var YConsole=new function YConsole(){
 		var build_tools=function(){
 			// autoscroll
 			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp; &nbsp; console &nbsp; "}));
-			dom_autoscroll=makedom("a",{innerHTML:"<img width='20' src=\""+medias["autoscroll_on"]+"\"/>",title:"toggle autoscroll[on]",onmouseup:function(){
+			dom_autoscroll=makedom("a",{className:className+"_tools_button",innerHTML:"<img src=\""+medias["autoscroll_on"]+"\"/>",title:"toggle autoscroll[on]",onmouseup:function(){
 				autoscroll=!autoscroll;
-				to_inner_html(this,autoscroll?"<img width='20' src=\""+medias["autoscroll_on"]+"\"/>":"<img width='20' src=\""+medias["autoscroll_off"]+"\"/>");
+				to_inner_html(this,autoscroll?"<img src=\""+medias["autoscroll_on"]+"\"/>":"<img src=\""+medias["autoscroll_off"]+"\"/>");
 				this.title="toggle autoscroll["+(autoscroll?"on":"off")+"]";
 			}});
 			append_child(dom_tools,dom_autoscroll);
+			
+			
 			// stack visible
-			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
+/*			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
 			dom_stktrace=makedom("a",{innerHTML:"<img width='20' src=\""+medias["stack_on"]+"\"/>",title:"toggle stack trace[on]",onmouseup:function(){
 				stktrace=!stktrace;
 				to_inner_html(this,stktrace?"<img width='20' src=\""+medias["stack_on"]+"\"/>":"<img width='20' src=\""+medias["stack_off"]+"\"/>");
 				stk_rule.style.display=stktrace?"":"none";
 				this.title="toggle stack trace["+(stktrace?"on":"off")+"]";
 			}});
-			append_child(dom_tools,dom_stktrace);
+			append_child(dom_tools,dom_stktrace);*/
+			stk_rule.style.display="none";
+			
 			//dom_save
 			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
-			dom_save=makedom("a",{innerHTML:"<img width='20' src=\""+medias["save"]+"\"/>",title:"save console",onmouseup:function(){
+			dom_save=makedom("a",{className:className+"_tools_button",innerHTML:"<img src=\""+medias["save"]+"\"/>",title:"save console",onmouseup:function(){
 				//save.png
 				var saver = makedom("a",{download:"log.txt",href:URL.createObjectURL(new Blob([""+logs_2_txt()]))});
 				
@@ -557,13 +575,13 @@ var YConsole=new function YConsole(){
 			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
 			append_child(dom_tools,dom_alpha);
 			
-			var dom_help=makedom("a",{innerHTML:"<img width='20' src=\""+medias["help"]+"\"/>",title:"help",onmouseup:function(){
+			var dom_help=makedom("a",{className:className+"_tools_button",innerHTML:"<img src=\""+medias["help"]+"\"/>",title:"help",onmouseup:function(){
 				helper.show();
 			}});
 			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
 			append_child(dom_tools,dom_help);
 			
-			dom_clear=makedom("a",{innerHTML:"<img width='20' src=\""+medias["clear"]+"\"/>",title:"clear console",onmouseup:function(){
+			dom_clear=makedom("a",{className:className+"_tools_button",innerHTML:"<img src=\""+medias["clear"]+"\"/>",title:"clear console",onmouseup:function(){
 				if(window.confirm("clear console ?"))scope.clear();
 			}});
 			append_child(dom_tools,makedom("span",{innerHTML:" &nbsp"}));
@@ -617,22 +635,45 @@ var YConsole=new function YConsole(){
 			this.trace	= trace;
 			var line=this;
 			var dom_cnt		= makedom("span",{className:className+"_counter",innerHTML:"1"});
-			var dom_msg		= makedom("div",{className:className+"_"+type+"",innerHTML:""+msg+" "},[]);
-			var dom_stack	= makedom("div",{className:className+"_stack "+classid+"_stk",innerHTML:""+trace});
+			
+			
+			//var iltrace = trace.split("<br/>")[0].split(")")[0].split("/").pop();//alert(iltrace);
+			var iltrace = trace.source;
+			
+//			old_log.apply(console,["________ trace : ",trace,"\n",iltrace]);
+			//var iltrace = (trace.split(":")[0]+trace.split(":")[1]).split("/").pop();//alert(iltrace);
+			
+			var dom_msg_switch	= makedom("span",{className:className+"_msg_switch",innerHTML:"►"},[]);
+			var dom_msg_msg		= makedom("span",{className:className+"_msg_msg"},[]);
+			var dom_trace_source		= makedom("span",{"style":{"float":"right",color:"#000"},innerHTML:""+trace.source});
+			var dom_msg			= makedom("div",{className:className+"_"+type+"",innerHTML:""},[dom_msg_switch,dom_trace_source,dom_msg_msg]);
+			
+			var dom_stack	= makedom("div",{className:className+"_stack "+classid+"_stk",innerHTML:""+trace.html});
 			this.dom	= makedom("div",{className:className+"_line"},[dom_msg,dom_stack]);
 			
+			var stack_showing=false;
+			dom_msg_switch.addEventListener("click",function(){
+				stack_showing=!stack_showing;
+				dom_msg_switch.innerHTML=stack_showing?"▼":"►";
+				dom_stack.style.display=stack_showing?"block":"none";
+			});
+			
 			if(typeof(msg)=="object"){
-				dom_msg.innerHTML="";
-				for(var i=0;i<msg.length;i++){
-					if(i>0)dom_msg.appendChild(makedom("span",{innerHTML:" , "}));
-					dom_msg.appendChild(unit2log(msg[i],scope));
+				dom_msg_msg.innerHTML="";
+				if(typeof(msg.length)=="number"){
+					for(var i=0;i<msg.length;i++){
+						if(i>0)dom_msg_msg.appendChild(makedom("span",{innerHTML:" , "}));
+						dom_msg_msg.appendChild(unit2log(msg[i],scope));
+					}
 				}
+			}else{
+				dom_msg_msg.innerHTML=""+msg;
 			}
-			dom_msg.appendChild(dom_cnt);
+			dom_msg_msg.appendChild(dom_cnt);
 			
 			dom_cnt.style.display="none";
 			this.toText=function(){
-				return "["+dom_cnt.innerHTML+"] "+(typeof(msg)=="object"?Array.prototype.concat.apply([],msg).join(" , "):dom_msg.textContent+"").split("\n").join("\r\n");
+				return "["+dom_cnt.innerHTML+"] "+(typeof(msg)=="object"?Array.prototype.concat.apply([],msg).join(" , "):dom_msg_msg.textContent+"").split("\n").join("\r\n");
 			};
 			this.cntIncr=function(){
 				dom_cnt.style.display="";
@@ -659,7 +700,7 @@ var YConsole=new function YConsole(){
 		};
 		var log_line	= function(type,msg,trace){
 			if(type=="error"){
-				msg=msg.split("Error").join("<b style='color:#f00;'>Error</b>");
+				msg=(""+msg).split("Error").join("<b style='color:#f00;'>Error</b>");
 			}else{
 			}
 			if(compare_last_line(type,msg,trace)){
@@ -677,7 +718,7 @@ var YConsole=new function YConsole(){
 		};
 		/**@ignore*/
 		this.trace_track	= function (level){
-			var stack;
+			var stack,html,source;
 			level=typeof(level)=="number"&&level>0?level:1;
 			try{eval("5=5;");}catch(e){
 				if(typeof(e.stack)=="string"){
@@ -686,13 +727,19 @@ var YConsole=new function YConsole(){
 					var sline;
 					while(stack.length>0&&stack.shift().indexOf("trace_track")==-1){};
 					while(stack.length>0&&stack[0].indexOf("YConsole")!=-1){stack.shift();};
-					stack =  stack.join("<br/>");
+					stack =  stack.join("\n");
 					//alert(stack);
 				}else{
 					stack = "";
 				}
 			}
-			return stack;
+			html	= stack.split("<").join("&lt;").split(">").join("&gt;").split("\n").join("<br/>");
+			source	= stack.split("\n")[0].split(")")[0].split("/").pop();
+			return {
+				stack	: stack,
+				html	: html,
+				source	: source
+			};
 		};
 		/**@ignore*/
 		this.updateDocking	= function(){
@@ -724,7 +771,7 @@ var YConsole=new function YConsole(){
 			if(msg&&msg.error&&msg.error.stack){
 				log_line("error",msg.message,msg.error.stack.split("\n").join("<br/>"));
 			}else{
-				log_line("error",msg,this.trace_track(1+level||0));
+				log_line("error",msg,scope.trace_track(1+level||0));
 			}
 			//var trace = this.trace_track(1+level||0);
 		};
@@ -868,6 +915,32 @@ var YConsole=new function YConsole(){
 		enumerable : true,
 		configurable : true
 	});
+	Object.defineProperty(this, "TOOLS_SIZE", {
+		get: function(){return TOOLS_SIZE;},
+		set: function(_TOOLS_SIZE){
+			if(typeof(_TOOLS_SIZE)=="number"){
+				TOOLS_SIZE=Math.max(16,_TOOLS_SIZE);
+				tools_button_rule.style.width=TOOLS_SIZE+"px";
+			}
+			//left_pan_switchimg.width=SWITCHER_SIZE;
+		},
+		enumerable : true,
+		configurable : true
+	});
+	//yconsole.SPLITTER_WIDTH
+	Object.defineProperty(this, "SPLITTER_WIDTH", {
+		get: function(){return SPLITTER_WIDTH+"";},
+		set: function(_SPLITTER_WIDTH){
+			if(typeof(_SPLITTER_WIDTH)=="number"){
+				SPLITTER_WIDTH=Math.max(16,_SPLITTER_WIDTH);
+				resize_vertical_rule.style.height=SPLITTER_WIDTH+"px";
+				resize_horizontal_rule.style.width=SPLITTER_WIDTH+"px";
+			}
+		},
+		enumerable : true,
+		configurable : true
+	});
+	//yconsole.SPLITTER_WIDTH
 	Object.defineProperty(this, "docking", {
 		get: function(){return docking+"";},
 		set: function(_docking){
@@ -883,7 +956,9 @@ var YConsole=new function YConsole(){
 					}
 					dock.node.className=dock.defclass+" "+dock.defclass+"__dock_"+_docking;
 				}
-				left_pan_resize.style[(_docking=="left"||_docking=="right")?"width":"height"]=yconsole.SPLITTER_WIDTH+"px";
+				//YConsole_resize_vertical resize_vertical_rule "."+className+"_resize_horizontal"
+				left_pan_resize.className+=" "+className+"_resize_"+(_docking=="left"||_docking=="right"?"horizontal":"vertical");
+//				left_pan_resize.style[(_docking=="left"||_docking=="right")?"width":"height"]=yconsole.SPLITTER_WIDTH+"px";
 		//		alert(yconsole.SPLITTER_WIDTH);
 				
 				docking=_docking+"";
@@ -896,6 +971,7 @@ var YConsole=new function YConsole(){
 		configurable : true
 	});
 	
+	var old_log=null;
 	/**
 	* Call to activate the console so it can begin to intercept errors and console logs.
 	*/
@@ -904,7 +980,7 @@ var YConsole=new function YConsole(){
 			konsol=new Konsol();
 			if(!dock_datas.docks[0].styles[this.docking])this.docking="left";
 			if(SWITCHER_SIZE==0)this.SWITCHER_SIZE=20;
-			var old_log=console.log;
+			old_log=console.log;
 			console.log=function(){
 				//var args = Array.prototype.concat.apply([],arguments);
 				
@@ -944,7 +1020,6 @@ var YConsole=new function YConsole(){
 	};
 	
 }();
-
 
 /* ------------------------------- ] YConsole.js ------------------------------- */
 
