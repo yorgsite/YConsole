@@ -10,7 +10,7 @@
 
 How to use :
 ```
-<script type="text/javascript" src="js/YConsole-compiled.js"></script> 
+<script type="text/javascript" src="js/YConsole.min.js"></script> 
 <script type="text/javascript" >YConsole.show();</script> 
 ```
 
