@@ -16,11 +16,12 @@ How to use :
 
 Advanced use exemple :
 ```
-YConsole.activate(); 
+YConsole.activate(); // start log an errors interception
 console.log("first intercepted log."); 
-YConsole.docking="right"; 
-YConsole.MAX_LOG_ARRAY_LENGTH=80; 
-YConsole.MAX_LOG_STR_LENGTH=300; 
+YConsole.docking="right"; // console docking
+YConsole.SPLITTER_WIDTH=20;// pannel split size
+YConsole.TOOLS_SIZE=30;// tool button size
+YConsole.SWITCHER_SIZE=30;// switch button size
 ... 
-YConsole.show(); 
+YConsole.show(); // show console
 ```
